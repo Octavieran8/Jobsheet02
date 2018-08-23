@@ -9,11 +9,11 @@ package jobsheet02;
  *
  * @author WINDOWS
  */
-public class UjiBus {
+public class PraktikumUjiBus {
     public static void main (String[] args){
 int password;
 //membuat objek busBesar dari class Bus
- Bus busBesar =new Bus(40);
+ PraktikumBus busBesar =new PraktikumBus(40);
  busBesar.cetak();
 //penambahan penumpang
  busBesar.getPenumpang(123);
